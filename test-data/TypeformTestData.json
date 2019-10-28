@@ -1,0 +1,122 @@
+{
+    "event_id": "01DR7GQ7PE9S7QKNZ59FNYDGDN",
+    "event_type": "form_response",
+    "form_response": {
+      "form_id": "yQrhce",
+      "token": "01DR7GQ7PE9S7QKNZ59FNYDGDN",
+      "landed_at": "2019-10-27T21:07:30Z",
+      "submitted_at": "2019-10-27T21:07:30Z",
+      "definition": {
+        "id": "yQrhce",
+        "title": "Contact Form",
+        "fields": [
+          {
+            "id": "SepNFzH2gk57",
+            "title": "Handlar det om något särskilt",
+            "type": "multiple_choice",
+            "ref": "92b3da9bf0016bd2",
+            "properties": {},
+            "choices": [
+              {
+                "id": "hm3b1PQ0Wrv4",
+                "label": "Jag är intresserad av att köpa en bostad"
+              },
+              {
+                "id": "azvpzbTT05mi",
+                "label": "Jag behöver tips och allmän hjälp inför bostadsköp"
+              },
+              {
+                "id": "pci8tWWBzOaP",
+                "label": "Jag skulle vilja arbeta med er"
+              },
+              {
+                "id": "ik3XjyWCAhdC",
+                "label": "Jag har åsikter om er hemsida"
+              },
+              {
+                "id": "LBdVpYgtcldY",
+                "label": "Det handlar om något annat"
+              }
+            ]
+          },
+          {
+            "id": "cmQUfSmeB5CD",
+            "title": "Vad heter du?",
+            "type": "short_text",
+            "ref": "185611541ff27be0",
+            "properties": {}
+          },
+          {
+            "id": "VF7nkYqmp8fr",
+            "title": "Vilken emailadress vill du nås på, {{field:185611541ff27be0}}?",
+            "type": "email",
+            "ref": "e33b632058c31e98",
+            "properties": {}
+          },
+          {
+            "id": "CgDyDkVtnIUH",
+            "title": " Vad är ditt telefonnummer?",
+            "type": "number",
+            "ref": "0ce7cce9-675c-48ef-b24e-aa2d651f7a5a",
+            "properties": {}
+          },
+          {
+            "id": "Wt6bjsJ6P9l5",
+            "title": "Vill du beskriva varför du vill att vi kontaktar dig?",
+            "type": "long_text",
+            "ref": "2423f4fb3f28df6b",
+            "properties": {}
+          }
+        ]
+      },
+      "answers": [
+        {
+          "type": "choice",
+          "choice": {
+            "label": "Barcelona"
+          },
+          "field": {
+            "id": "SepNFzH2gk57",
+            "type": "multiple_choice",
+            "ref": "92b3da9bf0016bd2"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Lorem ipsum dolor",
+          "field": {
+            "id": "cmQUfSmeB5CD",
+            "type": "short_text",
+            "ref": "185611541ff27be0"
+          }
+        },
+        {
+          "type": "email",
+          "email": "an_account@example.com",
+          "field": {
+            "id": "VF7nkYqmp8fr",
+            "type": "email",
+            "ref": "e33b632058c31e98"
+          }
+        },
+        {
+          "type": "number",
+          "number": 42,
+          "field": {
+            "id": "CgDyDkVtnIUH",
+            "type": "number",
+            "ref": "0ce7cce9-675c-48ef-b24e-aa2d651f7a5a"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Lorem ipsum dolor",
+          "field": {
+            "id": "Wt6bjsJ6P9l5",
+            "type": "long_text",
+            "ref": "2423f4fb3f28df6b"
+          }
+        }
+      ]
+    }
+  }
