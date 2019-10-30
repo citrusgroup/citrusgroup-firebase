@@ -1,0 +1,17 @@
+Contact ID - Numeric
+Full name - String
+Email - String
+Phone Number - String
+
+Budget - Numeric
+Monthly Cost - Numeric
+Real Estate Type - String - Multiple Selection comma separated
+Floor (If apartment) - String
+Square m2 = Numeric
+Area - String - Multiple Selection comma separated
+Enviroment - String - Multiple Selection comma separated
+Balcony - Boolean
+Garden - Boolean
+Pool - String
+Rent out - Boolean
+When in time to buy - Numeric

@@ -1,122 +1,269 @@
 {
-    "event_id": "01DR7GQ7PE9S7QKNZ59FNYDGDN",
-    "event_type": "form_response",
-    "form_response": {
-      "form_id": "yQrhce",
-      "token": "01DR7GQ7PE9S7QKNZ59FNYDGDN",
-      "landed_at": "2019-10-27T21:07:30Z",
-      "submitted_at": "2019-10-27T21:07:30Z",
-      "definition": {
-        "id": "yQrhce",
-        "title": "Contact Form",
-        "fields": [
-          {
-            "id": "SepNFzH2gk57",
-            "title": "Handlar det om något särskilt",
-            "type": "multiple_choice",
-            "ref": "92b3da9bf0016bd2",
-            "properties": {},
-            "choices": [
-              {
-                "id": "hm3b1PQ0Wrv4",
-                "label": "Jag är intresserad av att köpa en bostad"
-              },
-              {
-                "id": "azvpzbTT05mi",
-                "label": "Jag behöver tips och allmän hjälp inför bostadsköp"
-              },
-              {
-                "id": "pci8tWWBzOaP",
-                "label": "Jag skulle vilja arbeta med er"
-              },
-              {
-                "id": "ik3XjyWCAhdC",
-                "label": "Jag har åsikter om er hemsida"
-              },
-              {
-                "id": "LBdVpYgtcldY",
-                "label": "Det handlar om något annat"
-              }
-            ]
-          },
-          {
-            "id": "cmQUfSmeB5CD",
-            "title": "Vad heter du?",
-            "type": "short_text",
-            "ref": "185611541ff27be0",
-            "properties": {}
-          },
-          {
-            "id": "VF7nkYqmp8fr",
-            "title": "Vilken emailadress vill du nås på, {{field:185611541ff27be0}}?",
-            "type": "email",
-            "ref": "e33b632058c31e98",
-            "properties": {}
-          },
-          {
-            "id": "CgDyDkVtnIUH",
-            "title": " Vad är ditt telefonnummer?",
-            "type": "number",
-            "ref": "0ce7cce9-675c-48ef-b24e-aa2d651f7a5a",
-            "properties": {}
-          },
-          {
-            "id": "Wt6bjsJ6P9l5",
-            "title": "Vill du beskriva varför du vill att vi kontaktar dig?",
-            "type": "long_text",
-            "ref": "2423f4fb3f28df6b",
-            "properties": {}
-          }
-        ]
-      },
-      "answers": [
+  "event_id": "01DQ5QBS1DHYHSEV7KR5THSHQ0",
+  "event_type": "form_response",
+  "form_response": {
+    "form_id": "LoS61w",
+    "token": "01DQ5QBS1DHYHSEV7KR5THSHQ0",
+    "landed_at": "2019-10-14T18:09:24Z",
+    "submitted_at": "2019-10-14T18:09:24Z",
+    "definition": {
+      "id": "LoS61w",
+      "title": "Citrusgruppen Search",
+      "fields": [
         {
-          "type": "choice",
-          "choice": {
-            "label": "Barcelona"
-          },
-          "field": {
-            "id": "SepNFzH2gk57",
-            "type": "multiple_choice",
-            "ref": "92b3da9bf0016bd2"
-          }
+          "id": "cjxD3OKQxB2K",
+          "title": "Vilken typ av fastighet letar du efter?",
+          "type": "picture_choice",
+          "allow_multiple_selections": true,
+          "ref": "fcf7a76f-29d2-4eac-b3fb-6ae2ebe1b919",
+          "properties": {},
+          "choices": [
+            {
+              "id": "IjpidiWyZGK3",
+              "label": "Lägenhet"
+            },
+            {
+              "id": "jQT2FTSBEmmS",
+              "label": "Hus"
+            },
+            {
+              "id": "x9n1vPa5wKZJ",
+              "label": "Radhus"
+            }
+          ]
         },
         {
-          "type": "text",
-          "text": "Lorem ipsum dolor",
-          "field": {
-            "id": "cmQUfSmeB5CD",
-            "type": "short_text",
-            "ref": "185611541ff27be0"
-          }
-        },
-        {
-          "type": "email",
-          "email": "an_account@example.com",
-          "field": {
-            "id": "VF7nkYqmp8fr",
-            "type": "email",
-            "ref": "e33b632058c31e98"
-          }
-        },
-        {
+          "id": "UcafUNOir0pi",
+          "title": "Hur många sovrum?",
           "type": "number",
-          "number": 42,
-          "field": {
-            "id": "CgDyDkVtnIUH",
-            "type": "number",
-            "ref": "0ce7cce9-675c-48ef-b24e-aa2d651f7a5a"
-          }
+          "ref": "6b488ddc-fb97-486c-8150-61c4afe70fcc",
+          "properties": {}
         },
         {
-          "type": "text",
-          "text": "Lorem ipsum dolor",
-          "field": {
-            "id": "Wt6bjsJ6P9l5",
-            "type": "long_text",
-            "ref": "2423f4fb3f28df6b"
-          }
+          "id": "zQcK9fTtWxNz",
+          "title": "Hur många badrum?",
+          "type": "number",
+          "ref": "611451eb-dc15-47da-b1a4-55da7c8c39d6",
+          "properties": {}
+        },
+        {
+          "id": "Mobtafa9cgK9",
+          "title": "Hur många allrum?",
+          "type": "number",
+          "ref": "6e1f93e2-a091-4332-8acf-73fac0e836fc",
+          "properties": {}
+        },
+        {
+          "id": "dG7XiPK1ARx9",
+          "title": "Är en terrass eller balkong ett måste?",
+          "type": "yes_no",
+          "ref": "947aec18-bc62-47e7-baf5-1ea8c7739d21",
+          "properties": {}
+        },
+        {
+          "id": "UxfjAcqSaBQH",
+          "title": "Har du några tankar kring våningsplan?",
+          "type": "multiple_choice",
+          "ref": "03807a7c-eab8-4871-b261-745e69840e6a",
+          "properties": {},
+          "choices": [
+            {
+              "id": "vzuCDpIF8LUP",
+              "label": "Bottenvåning"
+            },
+            {
+              "id": "mNvdwz1kcGW7",
+              "label": "Övervåningar"
+            },
+            {
+              "id": "NeZ8ntVsrbfK",
+              "label": "Det är inte viktigt"
+            }
+          ]
+        },
+        {
+          "id": "uSfS6AF1OK7o",
+          "title": "Vilket område letar du främst i?",
+          "type": "picture_choice",
+          "ref": "6f42d238-83d6-4f95-a0a2-d862075fed13",
+          "properties": {},
+          "choices": [
+            {
+              "id": "X5NabozDGNlc",
+              "label": "Costa Blanca"
+            },
+            {
+              "id": "lbgPndW99s9J",
+              "label": "Costa Calida"
+            },
+            {
+              "id": "FO7J2xbEhHND",
+              "label": "Costa de Almeria"
+            },
+            {
+              "id": "tfFsdqKuwijS",
+              "label": "Costa del Sol"
+            },
+            {
+              "id": "mkuRtX0zX3QA",
+              "label": "Mallorca"
+            },
+            {
+              "id": "Z1sVNpCYxlVl",
+              "label": "Det är inte viktigt"
+            }
+          ]
+        },
+        {
+          "id": "Ciu0xREGomnW",
+          "title": "Vilka typer av prioriterar du?",
+          "type": "picture_choice",
+          "ref": "91fb2437-dbfe-4cec-b0f9-46860044a7c6",
+          "properties": {},
+          "choices": [
+            {
+              "id": "GAyX5JyFS4LJ",
+              "label": "Golf"
+            },
+            {
+              "id": "kGuLgupgnpfj",
+              "label": "Nattliv"
+            },
+            {
+              "id": "nnqLtZ5Sg7Wf",
+              "label": "Familjevänligt"
+            },
+            {
+              "id": "YU2F4DH5lp04",
+              "label": "Nära en flygplats"
+            },
+            {
+              "id": "v9l0H31hSvqW",
+              "label": "Shopping"
+            },
+            {
+              "id": "qkKeqsxVM2IN",
+              "label": "Nära strand & hav"
+            },
+            {
+              "id": "qMHWnzG8J4Jl",
+              "label": "Nära City & Centrum"
+            },
+            {
+              "id": "QcoYRDWS0lCt",
+              "label": "Träning och fitness"
+            }
+          ]
+        },
+        {
+          "id": "BAhVr5DStOGg",
+          "title": "Är ",
+          "type": "picture_choice",
+          "ref": "362b125c-3abd-4e00-8951-43bf3cf00708",
+          "properties": {},
+          "choices": [
+            {
+              "id": "lUBrrEB5TZjg",
+              "label": "choice 1"
+            }
+          ]
         }
       ]
-    }
+    },
+    "answers": [
+      {
+        "type": "choices",
+        "choices": {
+          "labels": [
+            "Barcelona"
+          ]
+        },
+        "field": {
+          "id": "cjxD3OKQxB2K",
+          "type": "picture_choice",
+          "ref": "fcf7a76f-29d2-4eac-b3fb-6ae2ebe1b919"
+        }
+      },
+      {
+        "type": "number",
+        "number": 42,
+        "field": {
+          "id": "UcafUNOir0pi",
+          "type": "number",
+          "ref": "6b488ddc-fb97-486c-8150-61c4afe70fcc"
+        }
+      },
+      {
+        "type": "number",
+        "number": 42,
+        "field": {
+          "id": "zQcK9fTtWxNz",
+          "type": "number",
+          "ref": "611451eb-dc15-47da-b1a4-55da7c8c39d6"
+        }
+      },
+      {
+        "type": "number",
+        "number": 42,
+        "field": {
+          "id": "Mobtafa9cgK9",
+          "type": "number",
+          "ref": "6e1f93e2-a091-4332-8acf-73fac0e836fc"
+        }
+      },
+      {
+        "type": "boolean",
+        "boolean": true,
+        "field": {
+          "id": "dG7XiPK1ARx9",
+          "type": "yes_no",
+          "ref": "947aec18-bc62-47e7-baf5-1ea8c7739d21"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "label": "Barcelona"
+        },
+        "field": {
+          "id": "UxfjAcqSaBQH",
+          "type": "multiple_choice",
+          "ref": "03807a7c-eab8-4871-b261-745e69840e6a"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "label": "Barcelona"
+        },
+        "field": {
+          "id": "uSfS6AF1OK7o",
+          "type": "picture_choice",
+          "ref": "6f42d238-83d6-4f95-a0a2-d862075fed13"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "label": "Barcelona"
+        },
+        "field": {
+          "id": "Ciu0xREGomnW",
+          "type": "picture_choice",
+          "ref": "91fb2437-dbfe-4cec-b0f9-46860044a7c6"
+        }
+      },
+      {
+        "type": "choice",
+        "choice": {
+          "label": "Barcelona"
+        },
+        "field": {
+          "id": "BAhVr5DStOGg",
+          "type": "picture_choice",
+          "ref": "362b125c-3abd-4e00-8951-43bf3cf00708"
+        }
+      }
+    ]
   }
+}

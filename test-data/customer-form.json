@@ -1,0 +1,48 @@
+{
+  "Customers": [
+    {
+      "contactID": "123456789",
+      "fullName": "Erik Boström",
+      "email": "erikbostrom1@gmail.com",
+      "phoneNumber": "0767232742"
+    },
+    {
+      "contactID": "987654321",
+      "fullName": "Hans Isacsson",
+      "email": "erikbostrom1+123@gmail.com",
+      "phoneNumber": "0767232742"
+    }
+  ],
+  "CustomerForms": [
+    {
+      "constactID": "123456789",
+      "budget": 200000,
+      "monthlyCost": 5000.50,
+      "realEstateType": [
+        "Appartment",
+        "House"
+      ],
+      "floor": "1st",
+      "squareM2": {
+        "max": "150",
+        "min": "50"
+      },
+      "area": [
+        "Costa Blanca",
+        "Costa Calida",
+        "Mallorca",
+        "Costa de Almeria"
+      ],
+      "environment": [
+        "Golf",
+        "Nightlife",
+        "Shopping"
+      ],
+      "balcony": true,
+      "garden": true,
+      "pool": "that would be nice",
+      "rentOut": false,
+      "whenInTimeToBuy": "6-12 month"
+    }
+  ]
+}
