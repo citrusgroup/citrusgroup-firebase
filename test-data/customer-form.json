@@ -16,6 +16,7 @@
   "CustomerForms": [
     {
       "constactID": "123456789",
+      "formID": "5432",
       "budget": 200000,
       "monthlyCost": 5000.50,
       "realEstateType": [
@@ -40,6 +41,7 @@
       ],
       "balcony": true,
       "garden": true,
+      "balcony_garden": "true_true",
       "pool": "that would be nice",
       "rentOut": false,
       "whenInTimeToBuy": "6-12 month"
