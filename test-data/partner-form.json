@@ -1,19 +1,21 @@
 {
-  "Customers": {
-   "cust_123432": {
-      "fullName": "Erik Boström",
-      "email": "erikbostrom1@gmail.com",
-      "phoneNumber": "0767232742"
+  "Partners": [
+    {
+      "partnerID": "jshd-ksjdf-2123-sjflkjsd",
+      "name": "Housing inc.",
+      "email": "bigboss@housinginc.com",
+      "phoneNumber": "0034 217318 129381"
     },
-    "cust_123123": {
-      "fullName": "Hans Isacsson",
-      "email": "erikbostrom1+123@gmail.com",
+    {
+      "contactID": "fjsdljflsk-sjdlfkjds-jslfj-12312",
+      "name": "Appartment group",
+      "email": "salesrep@appartmentgroup.com",
       "phoneNumber": "0767232742"
     }
-  },
-  "CustomerForms": {
-    "cf_1231231": {
-      "customerID" : "cust_123432",
+  ],
+  "CustomerForms": [
+    {
+      "constactID": "123456789",
       "formID": "5432",
       "budget": 200000,
       "monthlyCost": 5000.50,
@@ -44,5 +46,5 @@
       "rentOut": false,
       "whenInTimeToBuy": "6-12 month"
     }
-  }
+  ]
 }
