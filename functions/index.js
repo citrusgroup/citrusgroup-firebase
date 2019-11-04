@@ -5,6 +5,9 @@ const functions = require('firebase-functions');
 // The Firebase Admin SDK to access the Cloud Firestore.
 const admin = require('firebase-admin');
 admin.initializeApp();
+exports.n8sCustomerForm = functions.https.onRequest(async (request, response) => {
+    response.json({nathan: "hello erik"});
+});
 
 exports.saveCustomerForm = functions.https.onRequest(async (request, response) => {
     const customerObject = {
